@@ -7,17 +7,12 @@ import { Auto } from './auto';
   styleUrls: ['./autos.component.css']
 })
 export class AutosComponent implements OnInit {
-
-  // Declaracion de arreglo de la clase Contacto
   autos : any = [
-
     new Auto(1, 'Autos'),
     new Auto(2, 'Moda'),
     new Auto(3, 'Rock N Roll')
     
   ];
-
-
   constructor() { }
 
   ngOnInit(): void {
